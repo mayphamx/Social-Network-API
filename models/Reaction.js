@@ -1,7 +1,8 @@
 const { Schema, Types } = require('mongoose');
+const moment = require('moment');
 
 // Schema to create Post model
-const applicationSchema = new Schema(
+const reactionSchema = new Schema(
   {
     reactionId: {
       type: Schema.Types.ObjectId,
